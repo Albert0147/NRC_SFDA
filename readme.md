@@ -1,5 +1,5 @@
 
-Code for our NeurIPS 2021 paper 'Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation'.
+Code for our **NeurIPS** 2021 paper '**Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation**'.
 
 # Dataset preparing
 
