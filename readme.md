@@ -1,6 +1,6 @@
 # Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation (NeurIPS 2021)
 
-Code for our **NeurIPS** 2021 paper '**Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation**'. [[project]](https://sites.google.com/view/trustyourgoodfriend-neurips21/) [[paper (soon)]]()
+Code for our **NeurIPS** 2021 paper 'Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation'. [[project]](https://sites.google.com/view/trustyourgoodfriend-neurips21/) [[paper (soon)]]()
 
 ## Dataset preparing
 
