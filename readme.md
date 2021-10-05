@@ -4,7 +4,7 @@ Code for our **NeurIPS** 2021 paper '**Exploiting the Intrinsic Neighborhood Str
 
 ## Dataset preparing
 
-Download the [VisDA](https://github.com/VisionLearningGroup/taskcv-2017-public/tree/master/classification) and [Office-Home](https://www.hemanthdv.org/officeHomeDataset.html) (use our provided image list files) dataset. And denote the path of data list in the code. The code is expected to reproduce the results with PyTorch **1.3**. 
+Download the [VisDA](https://github.com/VisionLearningGroup/taskcv-2017-public/tree/master/classification) and [Office-Home](https://www.hemanthdv.org/officeHomeDataset.html) (use our provided image list files) dataset. And denote the path of data list in the code. The code is expected to reproduce the results with **PyTorch 1.3 with cuda 10.0**. 
 
 ## Checkpoint
 
