@@ -28,3 +28,7 @@ Code for Office-Home is in the 'office-home' folder.
 ## PointDA-10
 
 Code in the folder 'pointDA-10' is based on [PointDAN](https://github.com/canqin001/PointDAN). Run the src.sh for source pretraining and tar.sh for source-free domain adaption.
+
+### Acknowledgement
+
+The codes are based on [SHOT (ICML 2020, also source-free)](https://github.com/tim-learn/SHOT).
