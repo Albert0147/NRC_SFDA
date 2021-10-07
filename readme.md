@@ -1,6 +1,7 @@
 # Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation (NeurIPS 2021)
 
-Code for our **NeurIPS** 2021 paper 'Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation'. [[project]](https://sites.google.com/view/trustyourgoodfriend-neurips21/) [[paper (soon)]]()
+Code for our **NeurIPS** 2021 paper 'Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation'. [[project]](https://sites.google.com/view/trustyourgoodfriend-neurips21/) [[paper (soon)]]() (The codes are based on [G-SFDA (ICCV 2021)](https://github.com/Albert0147/G-SFDA))
+
 
 ## Dataset preparing
 
@@ -29,6 +30,4 @@ Code for Office-Home is in the 'office-home' folder.
 
 Code in the folder 'pointDA-10' is based on [PointDAN](https://github.com/canqin001/PointDAN). Run the src.sh for source pretraining and tar.sh for source-free domain adaption.
 
-### Acknowledgement
 
-The codes are based on [SHOT (ICML 2020, also source-free)](https://github.com/tim-learn/SHOT).
