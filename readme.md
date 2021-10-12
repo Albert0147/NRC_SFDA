@@ -1,6 +1,6 @@
 # Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation (NeurIPS 2021)
 
-Code for our **NeurIPS** 2021 paper 'Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation'. [[project]](https://sites.google.com/view/trustyourgoodfriend-neurips21/) [[paper]](https://arxiv.org/abs/2110.04202) (The codes are based on [G-SFDA (ICCV 2021)](https://github.com/Albert0147/G-SFDA))
+Code for our **NeurIPS** 2021 paper 'Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation'. [[project]](https://sites.google.com/view/trustyourgoodfriend-neurips21/) [[paper]](https://arxiv.org/abs/2110.04202) (The codes are based on our [G-SFDA (ICCV 2021)](https://github.com/Albert0147/G-SFDA))
 
 **Note**: In the code, we do not explicitly compute the self-regularization loss (you will find the comment in the code), instead we do not explicitly remove the self features in the nearest neighbor retriving where the occurrence frequency of self feature acts as a dynamic weight.
 
