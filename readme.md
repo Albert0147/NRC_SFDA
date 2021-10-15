@@ -1,4 +1,4 @@
-# Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation (NeurIPS 2021)
+# [Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation (NeurIPS 2021)](https://arxiv.org/abs/2110.04202)
 
 Code for our **NeurIPS** 2021 paper 'Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation'. [[project]](https://sites.google.com/view/trustyourgoodfriend-neurips21/) [[paper]](https://arxiv.org/abs/2110.04202) (The codes are based on our [G-SFDA (ICCV 2021)](https://github.com/Albert0147/G-SFDA))
 
