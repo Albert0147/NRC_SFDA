@@ -10,7 +10,7 @@ Download the [VisDA](https://github.com/VisionLearningGroup/taskcv-2017-public/t
 
 ## Checkpoint
 
-You can find all the training log files and the weights (before and after the adaptation) on VisDA and Office-Home in this [link](https://drive.google.com/drive/folders/1Tx-iyEXDbmuxlLyYX5sLKwNsTrpwHpjk?usp=sharing). **If you want to reproduce the results quickly, please use the provided source model.**
+You can find all the weights (before and after the adaptation, and the results of the logfile may not be the correct one) on VisDA and Office-Home in this [link](https://drive.google.com/drive/folders/1Tx-iyEXDbmuxlLyYX5sLKwNsTrpwHpjk?usp=sharing). **If you want to reproduce the results quickly, please use the provided source model.**
 
 ## VisDA
 
