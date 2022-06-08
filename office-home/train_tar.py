@@ -219,6 +219,8 @@ def train_target(args):
     oldC.train()
 
     while iter_num < max_iter:
+        
+        # comment this if on office-31
         if iter_num>0.5*max_iter:
             args.K = 5
             args.KK = 4
@@ -239,6 +241,8 @@ def train_target(args):
         inputs_test = inputs_test.cuda()
 
         iter_num += 1
+        
+        # uncomment this if on office-31
         #lr_scheduler(optimizer, iter_num=iter_num, max_iter=max_iter)
         
         inputs_target = inputs_test.cuda()
@@ -358,7 +362,7 @@ if __name__ == "__main__":
     parser.add_argument('--max_epoch',
                         type=int,
                         default=40,
-                        help="maximum epoch")
+                        help="maximum epoch") # set to 50 on office-31
     parser.add_argument('--batch_size',
                         type=int,
                         default=64,
@@ -380,8 +384,8 @@ if __name__ == "__main__":
                         help="learning rate")
     parser.add_argument('--seed', type=int, default=2021, help="random seed")
     parser.add_argument('--class_num', type=int, default=65)
-    parser.add_argument('--K', type=int, default=4)
-    parser.add_argument('--KK', type=int, default=3)
+    parser.add_argument('--K', type=int, default=4) # set to 2 on office-31 (or 3 on a2w)
+    parser.add_argument('--KK', type=int, default=3) # set to 3 on office-31 (or 2 on a2w)
     parser.add_argument('--alpha', type=float, default=0.5)
     parser.add_argument('--par', type=float, default=0.1)
     parser.add_argument('--bottleneck', type=int, default=256)
