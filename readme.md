@@ -1,4 +1,6 @@
 # [Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation (NeurIPS 2021)](https://arxiv.org/abs/2110.04202)
+## **Attention!** The code is expected to reproduce the results with **PyTorch 1.3 with cuda 10.0**
+
 
 Code for our **NeurIPS** 2021 paper 'Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation'. [[project]](https://sites.google.com/view/trustyourgoodfriend-neurips21/) [[paper]](https://arxiv.org/abs/2110.04202) (The codes are based on our [G-SFDA (ICCV 2021)](https://github.com/Albert0147/G-SFDA))
 
@@ -6,8 +8,7 @@ Code for our **NeurIPS** 2021 paper 'Exploiting the Intrinsic Neighborhood Struc
 
 ## Dataset preparing
 
-Download the [VisDA](https://github.com/VisionLearningGroup/taskcv-2017-public/tree/master/classification) and [Office-Home](https://www.hemanthdv.org/officeHomeDataset.html) (use our provided image list files) dataset. And denote the path of data list in the code. The code is expected to reproduce the results with **PyTorch 1.3 with cuda 10.0**. 
-
+Download the [VisDA](https://github.com/VisionLearningGroup/taskcv-2017-public/tree/master/classification) and [Office-Home](https://www.hemanthdv.org/officeHomeDataset.html) (use our provided image list files) dataset. And denote the path of data list in the code. 
 ## Checkpoint
 
 You can find all the weights (before and after the adaptation, and the results of the logfile may not be the correct one) on VisDA and Office-Home in this [link](https://drive.google.com/drive/folders/1Tx-iyEXDbmuxlLyYX5sLKwNsTrpwHpjk?usp=sharing). **If you want to reproduce the results quickly, please use the provided source model.**
