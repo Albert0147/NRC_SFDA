@@ -33,3 +33,6 @@ Code for Office-Home is in the 'office-home' folder.
 Code in the folder 'pointDA-10' is based on [PointDAN](https://github.com/canqin001/PointDAN). Run the src.sh for source pretraining and tar.sh for source-free domain adaption.
 
 
+## More results
+
+You can check the ICML 2022 paper ["Balancing Discriminability and Transferability for Source-Free Domain Adaptation"](https://proceedings.mlr.press/v162/kundu22a.html) for results of our method on Multi-Source Domain Adaptation on DomainNet.
