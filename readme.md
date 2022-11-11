@@ -35,4 +35,5 @@ Code in the folder 'pointDA-10' is based on [PointDAN](https://github.com/canqin
 
 ## More results
 
-You can check the ICML 2022 paper ["Balancing Discriminability and Transferability for Source-Free Domain Adaptation"](https://proceedings.mlr.press/v162/kundu22a.html) for results of our method on Multi-Source Domain Adaptation on DomainNet.
+You can check the ICML 2022 paper ["Balancing Discriminability and Transferability for Source-Free Domain Adaptation"](https://proceedings.mlr.press/v162/kundu22a.html) and ECCV 2022 paper ["Concurrent Subsidiary Supervision for Unsupervised Source-Free Domain Adaptation
+"](https://arxiv.org/abs/2207.13247) for results of our method on Multi-Source Domain Adaptation on DomainNet.
