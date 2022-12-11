@@ -6,6 +6,12 @@ Code for our **NeurIPS** 2021 paper 'Exploiting the Intrinsic Neighborhood Struc
 
 **Note**: In the code, we do not explicitly compute the self-regularization loss (you will find the comment in the code), instead we do not explicitly remove the self features in the nearest neighbor retriving where the occurrence frequency of self feature acts as a dynamic weight.
 
+## More results
+
+You can check the ICML 2022 paper ["Balancing Discriminability and Transferability for Source-Free Domain Adaptation"](https://proceedings.mlr.press/v162/kundu22a.html) and ECCV 2022 paper ["Concurrent Subsidiary Supervision for Unsupervised Source-Free Domain Adaptation
+"](https://arxiv.org/abs/2207.13247) (which use our code) for results of our method on Multi-Source Domain Adaptation on DomainNet.
+
+
 ## Dataset preparing
 
 Download the [VisDA](https://github.com/VisionLearningGroup/taskcv-2017-public/tree/master/classification) and [Office-Home](https://www.hemanthdv.org/officeHomeDataset.html) (use our provided image list files) dataset. And denote the path of data list in the code. 
@@ -33,7 +39,3 @@ Code for Office-Home is in the 'office-home' folder.
 Code in the folder 'pointDA-10' is based on [PointDAN](https://github.com/canqin001/PointDAN). Run the src.sh for source pretraining and tar.sh for source-free domain adaption.
 
 
-## More results
-
-You can check the ICML 2022 paper ["Balancing Discriminability and Transferability for Source-Free Domain Adaptation"](https://proceedings.mlr.press/v162/kundu22a.html) and ECCV 2022 paper ["Concurrent Subsidiary Supervision for Unsupervised Source-Free Domain Adaptation
-"](https://arxiv.org/abs/2207.13247) for results of our method on Multi-Source Domain Adaptation on DomainNet.
